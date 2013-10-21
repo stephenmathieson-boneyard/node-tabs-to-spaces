@@ -13,6 +13,12 @@
 
   Convert tabs in file `path` to `count` spaces
 
+## Usage
+
+  When installed globally (`npm install -g tabs-to-spaces`)
+
+    $ t2s --spaces 4 /path/to/some/file /path/to/some/other/file
+
 ## License 
 
 (The MIT License)

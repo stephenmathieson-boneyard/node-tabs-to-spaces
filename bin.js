@@ -5,6 +5,7 @@ var program = require('commander');
 
 program
   .version(require('./package.json').version)
+  .usage('[options] [files]')
   .option('-s, --spaces [number]', 'Number of spaces to use, defaults to 2', 2)
   .option('-v, --verbose', 'Verbose output', false)
   .parse(process.argv);
