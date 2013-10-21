@@ -1,0 +1,29 @@
+{
+  "name": "tabs-to-spaces",
+  "version": "0.0.1",
+  "description": "Convert tabs to spaces",
+  "keywords": [],
+  "author": "Stephen Mathieson <me@stephenmathieson.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephenmathieson/tabs-to-spaces.git"
+  },
+  "dependencies": {
+    "commander": "~2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "should": "~2.0.2"
+  },
+  "bin": {
+    "t2s": "bin.js"
+  },
+  "main": "index",
+  "bugs": {
+    "url": "https://github.com/stephenmathieson/tabs-to-spaces/issues"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "license": "MIT"
+}
