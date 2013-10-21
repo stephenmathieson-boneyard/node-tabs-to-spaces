@@ -12,7 +12,7 @@ program
 
 var files = program.args;
 var verbose = program.verbose;
-var spaces = program.spaces;
+var spaces = parseInt(program.spaces, 10);
 
 if (!files.length) {
   process.exit(0);
