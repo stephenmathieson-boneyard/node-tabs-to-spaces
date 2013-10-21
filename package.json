@@ -2,7 +2,9 @@
   "name": "tabs-to-spaces",
   "version": "0.0.1",
   "description": "Convert tabs to spaces",
-  "keywords": [],
+  "keywords": [
+    "tabs", "spaces", "convert"
+  ],
   "author": "Stephen Mathieson <me@stephenmathieson.com>",
   "repository": {
     "type": "git",
